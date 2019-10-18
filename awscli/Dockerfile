@@ -6,4 +6,4 @@ RUN dnf -y install python3-pip \
 && export PATH=~/.local/bin:$PATH && source ~/.bash_profile \
 && pip3 install awscli --user \
 && echo 'pathmunge ~/.local/bin' > /etc/profile.d/awscli.sh \
-&& chmod +x /etc/profile.d/awscli.sh \
+&& chmod +x /etc/profile.d/awscli.sh
